@@ -1,0 +1,9 @@
+Flask
+matplotlib
+numpy
+pandas
+openpyxl
+scikit_learn
+seaborn
+uvicorn
+flask_cors
