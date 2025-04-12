@@ -1,0 +1,40 @@
+/* Estilos para o contêiner principal */
+.dashboard-container {
+  display: flex;
+  flex-direction: column; /* Alinha os itens verticalmente */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  background-color: black; /* Fundo preto */
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  padding: 20px; /* Adiciona um pouco de espaçamento */
+}
+
+/* Estilos para o contêiner da logo e texto */
+.logo-container {
+  text-align: center; /* Centraliza o conteúdo horizontalmente */
+  margin-top: -300px; /* Move o conteúdo para cima (ajuste conforme necessário) */
+}
+
+/* Estilos para o texto "Cointech" */
+.cointech-text {
+  color: gold; /* Cor dourada */
+  font-size: 48px; /* Tamanho da fonte */
+  font-weight: bold; /* Texto em negrito */
+  margin-bottom: 20px; /* Espaçamento abaixo do texto */
+  text-shadow: 0 0 10px gold, 0 0 20px gold; /* Efeito de brilho dourado */
+}
+
+/* Estilos para a imagem */
+.logo-image {
+  max-width: 300px; /* Define o tamanho máximo da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Sombra suave */
+}
+
+/* Estilos para o contêiner do chatbot */
+.chatbot-wrapper {
+  margin-top: 20px; /* Espaçamento acima do chatbot */
+  width: 100%; /* Largura total */
+  max-width: 600px; /* Largura máxima do chatbot */
+}

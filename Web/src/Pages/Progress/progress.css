@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.progress-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.goal-section {
+    background-color: gold;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.goal-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+.input-group input:focus {
+    background-color: white;
+    outline: none;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.chart-section {
+    flex: 1;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chart-container {
+    width: 80%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 212, 255, 0.2);
+}
+
+.chart-container h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #00d4ff;
+}
+
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .progress-container {
+        flex-direction: column;
+    }
+
+    .goal-section {
+        width: 100%;
+        height: 40%;
+        padding: 10px;
+    }
+
+    .chart-section {
+        height: 60%;
+    }
+
+    .chart-container {
+        width: 90%;
+        padding: 10px;
+    }
+    
+    .export-button {
+        margin-top: 50px; /* Aumenta o espaço acima do botão */
+        background-color: #4CAF50; /* Verde */
+        color: white;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    
+    .export-button:hover {
+        background-color: #45a049; /* Verde mais escuro */
+        transform: scale(1.05);
+    }
+    
+    .export-button:active {
+        transform: scale(0.95);
+    }
+}

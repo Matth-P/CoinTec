@@ -1,0 +1,181 @@
+.background-register{
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.container_register{
+    width: 450px;
+    margin-top: 200px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_register .titulo {
+    color: yellow;
+    padding-bottom: 10px;
+    font-weight: 500px;
+    font-size: 40px;
+}
+
+
+
+.container_register h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.container_register .input-field{
+    width: 80%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.campoLogin_register input{
+width: 80%;
+height: 90%;
+background-color: transparent;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 10px 30px;
+margin-right: 30px;
+}
+
+.campoSureLogin_register input{
+width: 80%;
+height: 90%;
+background-color: transparent;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 10px 30px;
+margin-top: 15px;
+}
+
+.campoSenha_register input{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.campoSureSenha_register input{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.campoSenha_register input::placeholder{
+    color: #fff;
+}
+
+.campoSureSenha_register input::placeholder{
+    color: #fff;
+}
+
+.campoLogin_register input::placeholder{
+    color: #fff;
+}
+
+.campoSureLogin_register input::placeholder{
+    color: #fff;
+}
+
+/* .input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+} */
+
+.container_register .recall-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+.recall-forget label {
+    color: #fff;
+
+}
+
+.recall-forget input{
+    margin-right: 5px;
+}
+
+.recall-forget a, .linkcadastro p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.aceiteTermos{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.recall-forget a:hover, .linkcadastro p a:hover{
+    text-decoration: underline;
+}
+
+.botao_register {
+    width: 55%;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 16px;
+    text-shadow: none;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+ 
+.container_register .linkcadastro {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    text-shadow: none;
+    color: yellow;
+}
+
+
+

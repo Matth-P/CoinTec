@@ -1,0 +1,212 @@
+
+/* body{
+    background-image:url(../../assets/FundoLogin.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+} */
+
+.background-Login{
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a);
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.container{
+    width: 450px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 790px;
+    margin-top: 250px;
+
+}
+
+
+ .titulo {
+    color: yellow;
+    font-weight: 500px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.container .input-field{
+    width: 80%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.campoLogin input{
+width: 80%;
+height: 90%;
+background-color: transparent;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 10px 30px;
+margin-right: 30px;
+}
+
+.campoSureLogin input{
+width: 80%;
+height: 90%;
+background-color: transparent;
+outline: none;
+border: 2px solid rgba(255, 255, 255, 0.2);
+border-radius: 40px;
+font-size: 16px;
+color: #fff;
+padding: 10px 30px;
+margin-top: 15px;
+}
+
+.campoSenha input{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+.campoSureSenha input{
+    width: 80%;
+    height: 90%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 30px;
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.campoSenha input::placeholder{
+    color: #fff;
+}
+
+.campoSureSenha input::placeholder{
+    color: #fff;
+}
+
+.campoLogin input::placeholder{
+    color: #fff;
+}
+
+.campoSureLogin input::placeholder{
+    color: #fff;
+}
+
+/* .input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+} */
+
+.container .recall-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-top: 15px;
+    
+}
+.recall-forget label {
+    color: #fff;
+
+}
+
+.recall-forget input{
+    margin-right: 5px;
+}
+
+.recall-forget a, .linkcadastro p a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.aceiteTermos{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.recall-forget a:hover, .linkcadastro p a:hover{
+    text-decoration: underline;
+}
+
+.botao {
+    width: 55%;
+    height: 40px;
+    background-color: yellow;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 16px;
+    text-shadow: none;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+ 
+.container .linkcadastro {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+    text-shadow: none;
+    color: yellow;
+}
+
+.popup{
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 8px;
+        font-size: 18px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        z-index: 1000;
+        animation: fadeOut 3s ease-in-out;
+      }
+
+      @keyframes fadeOut {
+        0% { opacity: 1; }
+        100% { opacity: 0; }
+      }
+
+

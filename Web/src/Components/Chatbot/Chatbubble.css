@@ -1,0 +1,43 @@
+/* Estilos para o contêiner da mensagem */
+.chat-item {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    max-width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Estilos para a mensagem do usuário */
+  .user-chat-item {
+    background-color: gold; /* Fundo dourado */
+    color: black; /* Texto preto */
+    margin-left: auto; /* Alinha à direita */
+  }
+  
+  /* Estilos para a mensagem do modelo */
+  .model-chat-item {
+    background-color: #444; /* Fundo escuro */
+    color: white; /* Texto branco */
+    margin-right: auto; /* Alinha à esquerda */
+  }
+  
+  /* Estilos para o texto da mensagem */
+  .chat-text {
+    margin: 0;
+  }
+  
+  /* Estilos para o ícone de áudio */
+  .speaker-icon {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    color: gold; /* Cor dourada */
+    transition: color 0.3s ease;
+  }
+  
+  .speaker-icon:hover {
+    color: #ffd700; /* Tom mais claro de dourado */
+  }

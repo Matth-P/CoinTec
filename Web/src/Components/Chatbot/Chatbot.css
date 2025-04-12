@@ -1,0 +1,93 @@
+/* Estilos para o contêiner do chatbot */
+.container {
+    background-color: #1e1e1e; /* Fundo escuro */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+    color: white;
+    margin: 0 auto; /* Centraliza o chatbot */
+  }
+  
+  /* Título do chatbot */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: gold; /* Cor dourada */
+  }
+  
+  /* Contêiner das mensagens */
+  .chat-container {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+  }
+  
+  /* Contêiner de entrada */
+  .input-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Campo de entrada */
+  .input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Botão de enviar */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #ffd700; /* Tom mais claro de dourado */
+  }
+  
+  /* Botão do microfone */
+  .microphone-button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: gold;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .microphone-button:hover {
+    background-color: #ffd700; /* Tom mais claro de dourado */
+  }
+  
+  /* Mensagem de carregamento */
+  .loading {
+    text-align: center;
+    margin-top: 10px;
+    color: gold;
+  }
+  
+  /* Mensagem de erro */
+  .error {
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+  }

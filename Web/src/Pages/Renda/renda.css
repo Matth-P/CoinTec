@@ -1,0 +1,130 @@
+/* Contêiner principal */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Ocupa toda a altura da tela */
+  background-color: black; /* Fundo preto */
+  padding: 20px;
+}
+
+/* Quadro amarelo */
+.renda-quadro {
+  background-color: gold; /* Fundo amarelo */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 600px; /* Largura máxima do quadro */
+}
+
+/* Título */
+.renda-quadro h1 {
+  color: black; /* Texto preto */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form input, .form select, .form button {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white; /* Fundo branco para inputs */
+  color: black; /* Texto preto */
+}
+
+.form button {
+  background-color: black; /* Botão preto */
+  color: gold; /* Texto amarelo */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form button:hover {
+  background-color: #333; /* Tom mais escuro ao passar o mouse */
+  transform: scale(1.05);
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
+
+/* Lista de entradas */
+.entries-list {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: white; /* Fundo branco para cada entrada */
+  color: black; /* Texto preto */
+}
+
+.entry .date {
+  font-size: 12px;
+  color: #666; /* Cor cinza para a data */
+}
+
+.entry div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.entry button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.entry .edit-button {
+  background-color: black; /* Botão preto */
+  color: gold; /* Texto amarelo */
+}
+
+.entry .remove-button {
+  background-color: #ff4444; /* Botão vermelho para remover */
+  color: white; /* Texto branco */
+}
+
+.entry button:hover {
+  transform: scale(1.05);
+}
+
+.entry button:active {
+  transform: scale(0.95);
+}
+
+/* Saldo disponível */
+.balance {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  color: black; /* Texto preto */
+  background-color: white; /* Fundo branco */
+  padding: 10px;
+  border-radius: 5px;
+}
